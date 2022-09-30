@@ -48,7 +48,7 @@ const Qualification = () => {
 					>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">Desrrollo web full stack</h3>
+								<h3 className="qualification__title">Desarrollo web full stack</h3>
 								<span className="qualification__subtitle">Bootcamp soy Henry</span>
 								<div className="qualification__calender">
 									<i className="uil uil-calendar-alt"></i> abr 2022 - sep 2022
