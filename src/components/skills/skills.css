@@ -11,6 +11,9 @@
 	border-radius: 1.25rem;
 	transform-style: preserve-3d;
 	transition: transform 0.5s linear;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .LogosTecnologias {
