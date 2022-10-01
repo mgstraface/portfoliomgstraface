@@ -4,6 +4,7 @@ import calculadora from "../../assets/calculadora.jpg";
 import appTareas from "../../assets/appTareas.jpg";
 import henryFoods from "../../assets/henryFoods.jpg";
 import rockStarPlace from "../../assets/rockStarPlace.jpg";
+import weatherApp from "../../assets/weatherApp.jpg";
 
 const Projects = () => {
 	return (
@@ -57,6 +58,33 @@ const Projects = () => {
 						<a
 							className="linkProject"
 							href="https://apptareas.vercel.app"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Deploy
+						</a>
+					</div>
+				</div>
+
+				<div className="project__data card">
+					<img src={weatherApp} alt="project" className="project__image" />
+					<div class="card-bio">
+						<p>Aplicación de clima con REACT y consultas a una API externa.</p>
+					</div>
+					<h2 className="project__title">Weather APP</h2>
+					<span className="project__subtitle">React - CSS</span>
+					<div className="project__url">
+						<a
+							className="linkProject"
+							href="https://github.com/mgstraface/weatherapp"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Code
+						</a>
+						<a
+							className="linkProject"
+							href="https://mgsweatherapp.vercel.app"
 							rel="noreferrer"
 							target="_blank"
 						>

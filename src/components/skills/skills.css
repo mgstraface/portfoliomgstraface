@@ -25,6 +25,9 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.LogosTecnologias {
+		width: 300px;
+	}
 }
 
 /* small devices */
@@ -50,5 +53,8 @@
 	.skills__group {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+	}
+	.LogosTecnologias {
+		width: 300px;
 	}
 }
