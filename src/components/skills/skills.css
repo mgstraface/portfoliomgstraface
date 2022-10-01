@@ -19,6 +19,7 @@
 .LogosTecnologias {
 	margin-top: -10%;
 	width: 100%;
+	justify-self: center;
 }
 
 @media screen and (max-width: 990px) {
