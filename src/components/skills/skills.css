@@ -36,7 +36,7 @@
 	}
 	.LogosTecnologias {
 		width: 300px;
-		margin-left: 5%;
+		margin-left: 20px;
 	}
 }
 
@@ -60,7 +60,7 @@
 	}
 	.LogosTecnologias {
 		width: 300px;
-		margin-left: 5%;
+		margin-left: 20px;
 	}
 	#card {
 		width: 300px !important;
@@ -85,6 +85,6 @@
 	}
 	.LogosTecnologias {
 		width: 300px;
-		margin-left: 5%;
+		margin-left: 20px;
 	}
 }
