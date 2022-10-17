@@ -5,6 +5,7 @@ import appTareas from "../../assets/appTareas.jpg";
 import henryFoods from "../../assets/henryFoods.jpg";
 import rockStarPlace from "../../assets/rockStarPlace.jpg";
 import weatherApp from "../../assets/weatherApp.jpg";
+import tateti from "../../assets/tateti.jpg";
 
 const Projects = () => {
 	return (
@@ -31,6 +32,33 @@ const Projects = () => {
 						<a
 							className="linkProject"
 							href="https://calculadora-woad-zeta.vercel.app"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Deploy
+						</a>
+					</div>
+				</div>
+
+				<div className="project__data card">
+					<img src={tateti} alt="project" className="project__image" />
+					<div class="card-bio">
+						<p>app TA-TE-TI o TRES EN LINEA.</p>
+					</div>
+					<h2 className="project__title">TA-TE-TI</h2>
+					<span className="project__subtitle">React - CSS</span>
+					<div className="project__url">
+						<a
+							className="linkProject"
+							href="https://github.com/mgstraface/ta-te-ti"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Code
+						</a>
+						<a
+							className="linkProject"
+							href="https://ta-te-ti-three.vercel.app"
 							rel="noreferrer"
 							target="_blank"
 						>
