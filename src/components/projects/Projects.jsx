@@ -6,13 +6,43 @@ import henryFoods from "../../assets/henryFoods.jpg";
 import rockStarPlace from "../../assets/rockStarPlace.jpg";
 import weatherApp from "../../assets/weatherApp.jpg";
 import tateti from "../../assets/tateti.jpg";
+import appClima from "../../assets/appClimaNode.jpg";
 
 const Projects = () => {
 	return (
 		<section id="projects" className="projects section">
 			<h2 className="section__title">Mis proyectos</h2>
 
+			<br></br>
+			<br></br>
+
 			<div className="projects__container container grid ">
+				<div className="project__data card">
+					<img src={appClima} alt="project" className="project__image" />
+					<div class="card-bio">
+						<p>app del clima en NodeJS.</p>
+					</div>
+					<h2 className="project__title">App del Clima en NodeJS</h2>
+					<span className="project__subtitle">Node JS</span>
+					<div className="project__url">
+						<a
+							className="linkProject"
+							href="https://github.com/mgstraface/appclimanode"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Code
+						</a>
+						<a
+							className="linkProject"
+							href="https://www.linkedin.com/feed/update/urn:li:activity:6995758904773079040/"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Demo
+						</a>
+					</div>
+				</div>
 				<div className="project__data card">
 					<img src={calculadora} alt="project" className="project__image" />
 					<div class="card-bio">
