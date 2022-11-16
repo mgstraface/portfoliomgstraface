@@ -18,6 +18,100 @@ const Projects = () => {
 
 			<div className="projects__container container grid ">
 				<div className="project__data card">
+					<img src={rockStarPlace} alt="project" className="project__image" />
+					<div class="card-bio">
+						<p>Proyecto final del bootcamp de soyHenry, trabajando en grupo de 7 personas.</p>
+					</div>
+					<h2 className="project__title">RockStar Place</h2>
+					<span className="project__subtitle">
+						React - Redux - Styled Components - NodeMailer - Auth - MongoDB - MercadoPago - Leaflet
+						- Cloudinary - TypeScript - NodeJS - Express
+					</span>
+					<div className="project__url">
+						<a
+							className="linkProject"
+							href="https://github.com/SnowMoon272/PF-RockStar_Place"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Code
+						</a>
+						<a
+							className="linkProject"
+							href="https://www.youtube.com/watch?v=k6iUCjMoBmc&t=9s/"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Video demo
+						</a>
+						<a
+							className="linkProject"
+							href="https://pf-rock-star-place.vercel.app"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Deploy
+						</a>
+					</div>
+				</div>
+
+				<div className="project__data card">
+					<img src={henryFoods} alt="project" className="project__image" />
+					<div class="card-bio">
+						<p>Proyecto individual realizado en el bootcamp de soyHenry.</p>
+					</div>
+					<h2 className="project__title">Henry Foods</h2>
+					<span className="project__subtitle">
+						React - Redux - CSS - NodeJS - Express - Sequelize - API
+					</span>
+					<div className="project__url">
+						<a
+							className="linkProject"
+							href="https://github.com/mgstraface/piHenryFoods"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Code
+						</a>
+						<a
+							className="linkProject"
+							href="https://www.youtube.com/watch?v=QHltCVePVvA"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Video demo
+						</a>
+					</div>
+				</div>
+
+				<div className="project__data card">
+					<img src={weatherApp} alt="project" className="project__image" />
+					<div class="card-bio">
+						<p>Aplicación de clima con REACT y consultas a una API externa.</p>
+					</div>
+					<h2 className="project__title">Weather APP</h2>
+					<span className="project__subtitle">React - CSS</span>
+					<div className="project__url">
+						<a
+							className="linkProject"
+							href="https://github.com/mgstraface/weatherapp"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Code
+						</a>
+						<a
+							className="linkProject"
+							href="https://mgsweatherapp.vercel.app"
+							rel="noreferrer"
+							target="_blank"
+						>
+							Deploy
+						</a>
+					</div>
+				</div>
+
+				<div className="project__data card">
 					<img src={appClima} alt="project" className="project__image" />
 					<div class="card-bio">
 						<p>app del clima en NodeJS.</p>
@@ -116,100 +210,6 @@ const Projects = () => {
 						<a
 							className="linkProject"
 							href="https://apptareas.vercel.app"
-							rel="noreferrer"
-							target="_blank"
-						>
-							Deploy
-						</a>
-					</div>
-				</div>
-
-				<div className="project__data card">
-					<img src={weatherApp} alt="project" className="project__image" />
-					<div class="card-bio">
-						<p>Aplicación de clima con REACT y consultas a una API externa.</p>
-					</div>
-					<h2 className="project__title">Weather APP</h2>
-					<span className="project__subtitle">React - CSS</span>
-					<div className="project__url">
-						<a
-							className="linkProject"
-							href="https://github.com/mgstraface/weatherapp"
-							rel="noreferrer"
-							target="_blank"
-						>
-							Code
-						</a>
-						<a
-							className="linkProject"
-							href="https://mgsweatherapp.vercel.app"
-							rel="noreferrer"
-							target="_blank"
-						>
-							Deploy
-						</a>
-					</div>
-				</div>
-
-				<div className="project__data card">
-					<img src={henryFoods} alt="project" className="project__image" />
-					<div class="card-bio">
-						<p>Proyecto individual realizado en el bootcamp de soyHenry.</p>
-					</div>
-					<h2 className="project__title">Henry Foods</h2>
-					<span className="project__subtitle">
-						React - Redux - CSS - NodeJS - Express - Sequelize - API
-					</span>
-					<div className="project__url">
-						<a
-							className="linkProject"
-							href="https://github.com/mgstraface/piHenryFoods"
-							rel="noreferrer"
-							target="_blank"
-						>
-							Code
-						</a>
-						<a
-							className="linkProject"
-							href="https://www.youtube.com/watch?v=QHltCVePVvA"
-							rel="noreferrer"
-							target="_blank"
-						>
-							Video demo
-						</a>
-					</div>
-				</div>
-
-				<div className="project__data card">
-					<img src={rockStarPlace} alt="project" className="project__image" />
-					<div class="card-bio">
-						<p>Proyecto final del bootcamp de soyHenry, trabajando en grupo de 7 personas.</p>
-					</div>
-					<h2 className="project__title">RockStar Place</h2>
-					<span className="project__subtitle">
-						React - Redux - Styled Components - NodeMailer - Auth - MongoDB - MercadoPago - Leaflet
-						- Cloudinary - TypeScript - NodeJS - Express
-					</span>
-					<div className="project__url">
-						<a
-							className="linkProject"
-							href="https://github.com/SnowMoon272/PF-RockStar_Place"
-							rel="noreferrer"
-							target="_blank"
-						>
-							Code
-						</a>
-						<a
-							className="linkProject"
-							href="https://www.youtube.com/watch?v=k6iUCjMoBmc&t=9s/"
-							rel="noreferrer"
-							target="_blank"
-						>
-							Video demo
-						</a>
-						<a
-							className="linkProject"
-							href="https://pf-rock-star-place.vercel.app"
 							rel="noreferrer"
 							target="_blank"
 						>

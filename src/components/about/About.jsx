@@ -16,7 +16,7 @@ const About = () => {
 					<Info />
 
 					<p className="about__description">
-						Mi nombre es Matías, tengo 31 años y soy de la ciudad de Rosario. Apasionado por la
+						Mi nombre es Matías, tengo 32 años y soy de la ciudad de Rosario. Apasionado por la
 						tecnología y dando mis primeros pasos en el desarrollo web.
 					</p>
 
